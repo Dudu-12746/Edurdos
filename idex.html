@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+
+    <script>
+// Se clicar, procura elemento com id imagem, e insere src com uma nova imagem
+        function mudando1() {
+            document.getElementById("imagem").src = "recepcao.png";
+        }
+
+
+function mudando2() {
+            document.getElementById("imagem").src = "sair.png";
+        }
+
+
+      
+    </script>
+
+<link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+<style>
+        html,
+        body {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .linha {
+            padding-top: 10px;
+            display: flex;
+        }
+
+        img {
+            height: 300px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+     <h1> "O Dia da Doação" 🩸 </h1>
+
+    <p>Você é Ana, uma jovem estudante que acabou de ver uma campanha no colégio sobre doação de sangue.</p>
+
+
+
+    <img id="imagem" src="inicio.png">
+    <br>
+    <button onclick="window.location.href='parte2.html'">Entrar no hospital para se informar sobre a doação.</button>
+    <button onclick="window.location.href='parte7.html'">Ignorar e seguir seu caminho.</button>
+</body>
+
+</html>
+
+

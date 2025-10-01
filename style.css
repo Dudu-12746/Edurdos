@@ -1,0 +1,17 @@
+h1{
+    font-family:  'Times New Roman', Times, serif;
+    font-size: larger;/* diminui título */
+    display: flex;
+    align-items: center;
+    color: brown;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 226, 158);
+}
+button{
+    color: rgb(31, 173, 255);
+    display: flex;
+    align-items: center;
+    
+}
